@@ -11,28 +11,56 @@
 <body>
 
         <div class="completion-message" id="completionMessage">🎉 Congratulations, dear! These are all the correct answers! 🎉</div>
-        <div class="imperfect-message" id="imperfectMessage">💔 There were some mistakes, but you still did well! Try again! 💔</div>
+        <div class="imperfect-message" id="imperfectMessage">💔 Whatever the answers, I love you more 💔</div>
         <audio id="victorySound" src="music/victory.mp3"></audio>    
 
         
     <div class="container">
         <div class="score-board" id="scoreDisplay">Score: 0/0</div>
-        <h1>Naveen & Sravani Anniversary Quiz ❤️</h1>
+        <h1> Sravani & Naveen Anniversary Quiz ❤️</h1>
         <div class="heart">♥</div>
 
         <!-- Questions (same structure as before) -->
         <div class="question-box">
-            <div class="question">Where did you have your first date?</div>
-            <div class="option"  onclick="handleAnswer(this, 'incorrect')">Restaurant</div>
-            <div class="option" onclick="handleAnswer(this, 'incorrect')">Cinema</div>
-            <div class="option" data-correct="true" onclick="handleAnswer(this, 'correct')">Park</div>
+            <div class="question">Whats your favourite trip of us together?</div>
+            <div class="option"  onclick="handleAnswer(this, 'incorrect')">Varkala</div>
+            <div class="option" onclick="handleAnswer(this, 'incorrect')">Kodaikanal</div>
+            <div class="option" data-correct="true" onclick="handleAnswer(this, 'correct')">Just staying at home</div>
         </div>
 
         <div class="question-box">
-            <div class="question">Who said 'I love you' first?</div>
-            <div class="option" onclick="handleAnswer(this, 'incorrect')">Ме</div>
-            <div class="option" onclick="handleAnswer(this, 'incorrect')">My Partner</div>
-            <div class="option" data-correct="true" onclick="handleAnswer(this, 'correct')">At the same time</div>
+            <div class="question">Whats your impression about me when you saw me for the first time?</div>
+            <div class="option" onclick="handleAnswer(this, 'incorrect')">Handsome</div>
+            <div class="option" onclick="handleAnswer(this, 'incorrect')">More handsome</div>
+            <div class="option" data-correct="true" onclick="handleAnswer(this, 'correct')">Most Handsome</div>
+        </div>
+
+        <div class="question-box">
+            <div class="question">Whats your favourite dish among the ones I cook for you?</div>
+            <div class="option" data-correct="true" onclick="handleAnswer(this, 'correct')">Chicken fry</div>
+            <div class="option" onclick="handleAnswer(this, 'incorrect')">Chicken Biryani</div>
+            <div class="option" onclick="handleAnswer(this, 'incorrect')">Fish fry</div>
+        </div>
+
+        <div class="question-box">
+            <div class="question">What is the first movie that we watched together in theatre?</div>
+            <div class="option" data-correct="true" onclick="handleAnswer(this, 'correct')">Hanuman</div>
+            <div class="option" onclick="handleAnswer(this, 'incorrect')">Custody</div>
+            <div class="option" onclick="handleAnswer(this, 'incorrect')">Baby</div>
+        </div>
+
+        <div class="question-box">
+            <div class="question">What is your partner's favorite dessert</div>
+            <div class="option" data-correct="true" onclick="handleAnswer(this, 'correct')">Chocolate Cake</div>
+            <div class="option" onclick="handleAnswer(this, 'incorrect')">Ice Cream</div>
+            <div class="option" onclick="handleAnswer(this, 'incorrect')">Fruit Salad</div>
+        </div>
+
+        <div class="question-box">
+            <div class="question">What is your partner's favorite dessert</div>
+            <div class="option" data-correct="true" onclick="handleAnswer(this, 'correct')">Chocolate Cake</div>
+            <div class="option" onclick="handleAnswer(this, 'incorrect')">Ice Cream</div>
+            <div class="option" onclick="handleAnswer(this, 'incorrect')">Fruit Salad</div>
         </div>
 
         <div class="question-box">
